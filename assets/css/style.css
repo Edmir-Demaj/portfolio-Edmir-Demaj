@@ -9,3 +9,28 @@ body {
 .hvr-underline-from-center:before {
     background-color: #ffa202;
 }
+
+#about {
+    width: 100%;
+    height: 600px;
+    background-color: coral;
+}
+
+#home {
+    width: 100%;
+    height: 600px;
+    background-color: rgb(80, 255, 100);
+}
+
+
+#projects {
+    width: 100%;
+    height: 600px;
+    background-color: rgb(246, 38, 38);
+}
+
+#contact {
+    width: 100%;
+    height: 600px;
+    background-color: rgb(80, 118, 255);
+}
