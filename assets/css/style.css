@@ -5,3 +5,7 @@
 body {
     font-family: 'Work Sans', sans-serif;
 }
+
+.hvr-underline-from-center:before {
+    background-color: #ffa202;
+}
