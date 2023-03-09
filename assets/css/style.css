@@ -12,10 +12,9 @@ body {
 }
 
 #home {
-    margin-top: 106px;
-    width: 100%;
+    margin-top: 109px;
     height: calc(100vh - 106px);
-    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../images/me\ \(1\).png) left center / auto no-repeat;
+    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.7)), url(../images/banner-pic.png) 75% 100% / auto no-repeat;
 }
 
 #about {
@@ -41,18 +40,4 @@ body {
 h1,
 h2 {
     font-family: 'Work Sans', sans-serif;
-}
-
-#container {
-    height: calc(100vh - 106px);
-}
-
-.lead {
-    text-align: left;
-    max-width: 500px;
-    margin-top: 50px;
-}
-
-strong {
-    background-color: #ffa202;
 }
