@@ -3,24 +3,25 @@
 
 /* ------------------------------------General style */
 body {
-    font-family: 'Work Sans', sans-serif;
+    font-family: 'Playfair Display', serif;
+    background-color: #000000;
 }
 
 .hvr-underline-from-center:before {
     background-color: #ffa202;
 }
 
+#home {
+    margin-top: 106px;
+    width: 100%;
+    height: calc(100vh - 106px);
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../images/me\ \(1\).png) left center / auto no-repeat;
+}
+
 #about {
     width: 100%;
     height: 600px;
     background-color: coral;
-}
-
-#home {
-    margin-top: 106px;
-    width: 100%;
-    height: 600px;
-    background-color: rgb(80, 255, 100);
 }
 
 
@@ -34,4 +35,24 @@ body {
     width: 100%;
     height: 600px;
     background-color: rgb(80, 118, 255);
+}
+
+/* ------------------------------------Home page */
+h1,
+h2 {
+    font-family: 'Work Sans', sans-serif;
+}
+
+#container {
+    height: calc(100vh - 106px);
+}
+
+.lead {
+    text-align: left;
+    max-width: 500px;
+    margin-top: 50px;
+}
+
+strong {
+    background-color: #ffa202;
 }
