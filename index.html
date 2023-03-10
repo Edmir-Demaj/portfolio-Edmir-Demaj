@@ -36,7 +36,8 @@
               class="navbar-brand text-black fs-2 fw-semibold"
               href="index.html"
               ><img
-                src="../assets/images/logo.png"
+                src="/assets/images/logo.png
+                "
                 alt="Logo"
                 width="80"
                 height="80"
@@ -169,7 +170,7 @@
     <section id="about">
       <div class="container text-start text-white">
         <div class="row">
-          <div class="col-12 col-lg-6">
+          <div class="col-12 col-lg-6 about-card">
             <h2 class="about-text title-style">About me</h2>
             <p class="lead">
               I am a Junior Front-end Developer with a passion for building
@@ -181,7 +182,7 @@
               abilities, which I effectively apply to software programming.
             </p>
           </div>
-          <div class="col-12 col-lg-6">
+          <div class="col-12 col-lg-6 ps-5">
             <h3 class="fs-2 fw-semibold pb-5 mb-0 orange">
               <i class="fa-solid fa-gears"></i> Technical Skills
             </h3>
@@ -210,7 +211,7 @@
             </div>
           </div>
 
-          <div class="col-12 col-lg-6">
+          <div class="col-12 col-lg-6 mt-5">
             <h4 class="fs-2 fw-semibold orange">
               <i class="fa-solid fa-lightbulb"></i> Soft Skills
             </h4>
@@ -220,9 +221,18 @@
               <li>Problem-solving</li>
               <li>Teamwork</li>
             </ul>
+            <button type="button" class="btn btn-warning cv mt-5">
+              <a
+                class="nav-link text-black fs-4 hvr-icon-pulse-grow"
+                href="assets/cv/cv.pdf"
+                target="_blank"
+              >
+                Download CV <i class="fa-solid fa-download hvr-icon"></i
+              ></a>
+            </button>
           </div>
-          <div class="col-12 col-lg-6">
-            <h4 class="fs-2 fw-semibold orange">
+          <div class="col-12 col-lg-6 mt-5 ps-5 about-card">
+            <h4 class="fs-2 fw-semibold orange text-black">
               <i class="fa-solid fa-graduation-cap"></i> Education
             </h4>
             <ul class="fs-5">
@@ -250,7 +260,14 @@
     <!-- /about -->
 
     <!-- Projects -->
-    <section id="projects">Projects</section>
+    <section id="projects">
+      <div class="container text-center text-white">
+        <div class="row">
+          <h2 class="about-text title-style">Projects</h2>
+          <div class="col-12 col-md-6 col-lg-4"></div>
+        </div>
+      </div>
+    </section>
     <!-- /projects -->
 
     <!-- Contact -->
