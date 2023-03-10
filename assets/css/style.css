@@ -30,6 +30,10 @@ a {
     color: #ffc107;
 }
 
+.cards {
+    background-color: #d7c696;
+}
+
 /* ------------------------------------Navabar */
 .hvr-underline-from-center:before {
     background-color: #ffc107;
@@ -216,4 +220,14 @@ hr {
     height: 10px;
     background-color: #fff;
     color: #fff;
+}
+
+/* -----------------------------------Project page */
+.card-img-top {
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+}
+
+.card {
+    box-shadow: 5px 10px 30px rgba(151, 136, 94, 0.5);
 }
