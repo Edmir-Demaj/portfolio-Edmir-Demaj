@@ -8,20 +8,26 @@ body {
 }
 
 .hvr-underline-from-center:before {
-    background-color: #ffa202;
+    background-color: #ffc107;
 }
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* ------------------------------------Helpful styles */
 
 #home {
     margin-top: 109px;
     height: calc(100vh - 106px);
     max-height: 1000px;
-    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.7)), url(../images/banner-pic.png) 75% 100% / auto no-repeat;
+    background: linear-gradient(rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.8)), url(../images/banner-pic.png) 75% 100% / auto no-repeat;
 }
 
 #about {
     width: 100%;
     height: 600px;
-    background-color: coral;
 }
 
 
@@ -38,18 +44,26 @@ body {
 }
 
 /* ------------------------------------Home page */
-h1,
-h2 {
-    font-family: 'Merriweather', serif;
-}
-
 .banner {
     position: relative;
-    top: 25%;
+    top: 15%;
+}
+
+.banner-text {
+    padding-left: 20px;
+    margin-bottom: 30px;
 }
 
 .lead {
     max-width: 500px;
-    padding: 50px 0;
+    padding: 50px 0 20px 0;
     font-family: 'Open Sans', sans-serif;
+}
+
+#greeting {
+    padding-bottom: 40px;
+}
+
+strong {
+    color: #ffc107;
 }
