@@ -17,6 +17,8 @@ a {
     font-weight: 900;
 }
 
+/* ------------------------------------|Colors */
+
 .orange {
     color: #ffc107;
 }
@@ -205,4 +207,11 @@ a {
 /* ------------------------------------About page */
 #about {
     padding-top: 130px;
+}
+
+hr {
+    width: 10px;
+    height: 10px;
+    background-color: #fff;
+    color: #fff;
 }
