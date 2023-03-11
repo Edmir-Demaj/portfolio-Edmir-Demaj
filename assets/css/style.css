@@ -24,6 +24,10 @@ a {
     border-radius: 20px;
 }
 
+.wrapper {
+    max-width: 1440px;
+}
+
 /* ------------------------------------|Colors */
 
 .orange {
@@ -57,7 +61,7 @@ a {
     letter-spacing: 1px;
     font-size: 1.7em;
     position: absolute;
-    transform: translate(45%, -120%);
+    transform: translate(10%, -50%);
 }
 
 .heading h3:nth-child(1) {
