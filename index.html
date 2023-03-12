@@ -28,9 +28,9 @@
   </head>
   <body>
     <!-- Header -->
-    <header>
+    <header class="sticky-top">
       <section>
-        <nav class="navbar navbar-expand-lg bg-black fixed-top">
+        <nav class="navbar navbar-expand-lg bg-black">
           <div class="container-fluid wrapper py-4 py-lg-2">
             <a class="navbar-brand fs-2 fw-semibold" href="index.html">
               <div class="heading">
@@ -104,10 +104,13 @@
 
     <!-- Home page -->
     <main>
-      <section id="home">
-        <div class="container text-white banner">
-          <div class="row">
-            <div class="col banner-text">
+      <section>
+        <div
+          class="container text-white d-flex flex-column justify-content-center"
+          id="home"
+        >
+          <div class="row banner bg-image">
+            <div class="col">
               <h3 id="greeting" class="text-left">Hello there !</h3>
               <h1 class="text-left title-style">
                 My name is <strong class="orange">Edmir Demaj</strong>
@@ -130,7 +133,7 @@
               </button>
             </div>
             <div
-              class="col-12 col-lg-1 social-links d-lg-flex flex-column d-block text-down text-start"
+              class="col-12 col-lg-1 social-links d-none d-m-inline-block d-lg-flex flex-column justify-content-center text-down text-start"
             >
               <a
                 href="https://github.com/Edmir-Demaj"

@@ -13,7 +13,7 @@ a {
 }
 
 .title-style {
-    font-size: 250%;
+    font-size: 230%;
     font-weight: 900;
 }
 
@@ -117,18 +117,17 @@ a {
 
 /* ------------------------------------Home page */
 #home {
-    height: 100vh;
-    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.8)), url(../images/banner-pic.png) -10% -40% / auto no-repeat;
+    min-height: 100vh;
 }
 
-.banner {
-    margin-top: 15rem;
+.bg-image {
+    background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.8)), url(../images/banner-pic.png) 75% 0/ auto no-repeat;
 }
 
-.banner-text {
-    padding-left: 20px;
-    margin-bottom: 30px;
-}
+/* .banner {
+    padding-top: 10rem;
+} */
+
 
 .lead {
     max-width: 500px;
@@ -219,18 +218,8 @@ a {
 }
 
 /* ------------------------------------About page */
-#about,
-#projects,
-#contact {
-    padding-top: 130px;
-}
 
-hr {
-    width: 10px;
-    height: 10px;
-    background-color: #fff;
-    color: #fff;
-}
+
 
 /* -----------------------------------Project page */
 .card-img-top {
