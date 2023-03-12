@@ -13,7 +13,6 @@ a {
 }
 
 .title-style {
-    font-size: 230%;
     font-weight: 900;
 }
 
@@ -117,16 +116,18 @@ a {
 
 /* ------------------------------------Home page */
 #home {
-    min-height: 100vh;
+    min-height: calc(100vh - 100px);
 }
 
 .bg-image {
-    background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.8)), url(../images/banner-pic.png) 75% 0/ auto no-repeat;
+    background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.8)), url(../images/banner-pic.png) 75% 100%/ auto no-repeat;
+    background-attachment: fixed;
 }
 
-/* .banner {
-    padding-top: 10rem;
-} */
+.banner {
+    padding-top: 8%;
+}
+
 
 
 .lead {

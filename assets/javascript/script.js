@@ -7,7 +7,7 @@ document.addEventListener("DOMContentLoaded", function () {
 // Get all elements with class="nav-link"
 let navLinks = document.getElementsByClassName("nav-link");
 
-// Loop through the buttons and add the active class to the current/clicked button
+// Loop through the nav-links and add the active class
 for (let i = 0; i < navLinks.length; i++) {
     navLinks[i].addEventListener("click", function () {
         let current = document.getElementsByClassName("active");
