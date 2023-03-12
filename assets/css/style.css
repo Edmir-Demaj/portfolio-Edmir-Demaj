@@ -117,9 +117,8 @@ a {
 
 /* ------------------------------------Home page */
 #home {
-    margin-top: 109px;
-    max-height: calc(100vh - 106px);
-    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.8)), url(../images/banner-pic.png) 80% 40% / auto no-repeat;
+    height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.8)), url(../images/banner-pic.png) -10% -40% / auto no-repeat;
 }
 
 .banner {
