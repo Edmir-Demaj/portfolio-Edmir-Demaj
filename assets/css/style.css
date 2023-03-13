@@ -16,13 +16,6 @@ a {
     font-weight: 900;
 }
 
-.about-card {
-    background-color: #d7c696;
-    color: #000000;
-    padding: 20px;
-    border-radius: 20px;
-}
-
 .wrapper {
     max-width: 1440px;
 }
@@ -34,7 +27,7 @@ a {
 }
 
 .cards {
-    background-color: #d7c696;
+    background-color: #ad9f78;
 }
 
 /* ------------------------------------Navabar */
@@ -221,8 +214,18 @@ a {
 }
 
 /* ------------------------------------About page */
+#about,
+#projects {
+    padding-top: 150px;
+}
 
-
+.about-card {
+    background-color: rgb(162, 141, 71);
+    color: #000000;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    padding: 20px;
+}
 
 /* -----------------------------------Project page */
 .card-img-top {
