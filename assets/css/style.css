@@ -253,3 +253,16 @@ a {
 background-color: #d9a404;
 border-radius: 10px;
   }
+
+  /* ------------------------------------Footer */
+  footer{
+    margin-top: 60px;
+    background-color: aliceblue;
+    width: 100%;
+    height: 300px;
+  }
+
+  .footer-links {
+    list-style-type: none;
+    padding: 0;
+  }
