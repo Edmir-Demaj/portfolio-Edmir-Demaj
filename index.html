@@ -1,553 +1,388 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- bootstrap css link -->
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
-      crossorigin="anonymous"
-    />
-    <!-- font awesome link -->
-    <link
-      href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css"
-      rel="stylesheet"
-      media="all"
-    />
-    <!-- hover:css link  -->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css"
-    />
-    <!-- css link -->
-    <link rel="stylesheet" href="assets/css/style.css" />
-    <title>Portfolio | Edmir Demaj</title>
-  </head>
-  <body>
-    <!-- Header -->
-    <header class="sticky-top">
-      <section>
-        <nav class="navbar navbar-expand-lg bg-black">
-          <div class="container-fluid wrapper py-4 py-lg-2">
-            <a class="navbar-brand fs-2 fw-semibold" href="index.html">
-              <div class="heading">
-                <h3>Portfolio</h3>
-                <h3>Portfolio</h3>
-              </div></a
-            >
-            <button
-              class="navbar-toggler me-3"
-              type="button"
-              data-bs-toggle="collapse"
-              data-bs-target="#navbarTogglerDemo02"
-              aria-controls="navbarTogglerDemo02"
-              aria-expanded="false"
-              aria-label="Toggle navigation"
-            >
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div
-              class="collapse navbar-collapse justify-content-end pt-4"
-              id="navbarTogglerDemo02"
-            >
-              <ul class="navbar-nav mb-2 mb-lg-0">
-                <li class="nav-item text-center me-lg-3">
-                  <a
-                    id="homepage"
-                    class="nav-link hvr-underline-from-center text-white fs-4 py-1 px-3"
-                    href="index.html"
-                    >Home</a
-                  >
-                </li>
-                <li class="nav-item text-center me-lg-3" id="sect">
-                  <a
-                    class="nav-link hvr-underline-from-center text-white fs-4 py-1 px-3"
-                    href="#about"
-                    >About me</a
-                  >
-                </li>
-                <li class="nav-item text-center me-lg-3">
-                  <a
-                    class="nav-link hvr-underline-from-center text-white fs-4 py-1 px-3"
-                    href="#projects"
-                    >Projects</a
-                  >
-                </li>
-                <li class="nav-item text-center me-lg-3">
-                  <a
-                    class="nav-link hvr-underline-from-center text-white fs-4 py-1 px-3 mb-3"
-                    href="#contact"
-                    >Contact</a
-                  >
-                </li>
-                <li class="nav-item text-center">
-                  <button type="button" class="btn btn-warning py-1 px-3 cv">
-                    <a
-                      class="text-black fs-4 hvr-icon-pulse-grow p-0"
-                      href="assets/cv/cv.pdf"
-                      target="_blank"
-                    >
-                      Download CV
-                    </a>
-                  </button>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </nav>
-      </section>
-    </header>
-    <!-- /header -->
 
-    <!-- Home page -->
-    <main>
-      <section id="home">
-        <div class="container banner text-white bg-image">
-          <div class="row">
-            <div class="col p-3">
-              <h3 id="greeting" class="text-left fs-2">Hello there !</h3>
-              <h1 class="text-left title-style fs-1">
-                My name is <strong class="orange">Edmir Demaj</strong>
-              </h1>
-              <h2 class="text-left title-style fs-1">
-                I am a
-                <strong class="orange">Junior Full Stack Developer</strong>
-              </h2>
-              <p class="lead text-up">
-                I have a passion for crafting elegant, functional web
-                applications that provide a seamless user experience. With a
-                deep understanding of both front-end and back-end development, I
-                am able to bring complex software projects to life.
-              </p>
-              <button
-                type="button"
-                class="btn btn-outline-warning fs-4 cta text-up"
-              >
-                <a href="#contact">Get in Touch</a>
-              </button>
-            </div>
-            <div
-              class="col-12 col-lg-1 social-links d-none d-m-inline-block d-lg-flex flex-column justify-content-center text-down text-start"
-            >
-              <a
-                href="https://github.com/Edmir-Demaj"
-                class="hvr-icon-grow"
-                target="_blank"
-                ><i class="fa-brands fa-square-github hvr-icon fs-1"></i
-              ></a>
-              <a
-                href="https://www.linkedin.com/in/edmir-demaj-full-stack-developer/"
-                class="hvr-icon-grow"
-                target="_blank"
-                ><i
-                  class="fa-brands fa-linkedin hvr-icon px-5 px-lg-0 py-lg-5 fs-1"
-                ></i
-              ></a>
-              <a href="mailto:edmir_demaj@yahoo.com" class="hvr-icon-grow"
-                ><i class="fa-solid fa-envelope hvr-icon fs-1"></i
-              ></a>
-            </div>
-          </div>
-        </div>
-      </section>
-    </main>
-    <!-- /home page -->
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- bootstrap css link -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous" />
+  <!-- font awesome link -->
+  <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet" media="all" />
+  <!-- hover:css link  -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css" />
+  <!-- css link -->
+  <link rel="stylesheet" href="assets/css/style.css" />
+  <title>Portfolio | Edmir Demaj</title>
+</head>
 
-    <!-- About -->
-    <section id="about">
-      <div class="container text-start text-white">
-        <div class="row mx-1">
-          <div class="col-12 col-lg-6 mb-4 about-card">
-            <h2 class="about-text fw-semibold">
-              <i class="fa-regular fa-address-card"></i> About me
-            </h2>
-            <p class="lead py-0 pt-3">
-              I am a Junior Full Stack Developer with a passion for building
-              practical web applications and websites with an excellent user
-              experience. With knowledge in Front-end and Back-end Development,
-              I am skilled in leading technologies such as HTML5, CSS3,
-              Javascript, and Python. My background as a civil engineer has also
-              helped me develop strong problem-solving abilities, which I
-              effectively apply to software programming.
-            </p>
-          </div>
-          <div class="col-12 col-lg-6 text-center p-4">
-            <h3 class="fs-2 fw-semibold orange pb-3">
-              <i class="fa-solid fa-gears"></i> Technical Skills
-            </h3>
-            <div class="row">
-              <div class="col-6">
-                <h4 class="fw-semibold">Technologies</h4>
-                <p class="fs-5"><i class="fa-brands fa-html5"></i> HTML5</p>
-                <p class="fs-5"><i class="fa-brands fa-css3-alt"></i> CSS3</p>
-                <p class="fs-5">
-                  <i class="fa-brands fa-square-js"></i> Javascript
-                </p>
-                <p class="fs-5"><i class="fa-brands fa-python"></i> Python</p>
-                <h4 class="fw-semibold">Frameworks</h4>
-                <p class="fs-5">
-                  <i class="fa-brands fa-bootstrap"></i> Bootstrap
-                </p>
-              </div>
-              <div class="col-6">
-                <h4 class="fw-semibold">Tools</h4>
-                <p class="fs-5"><i class="fa-brands fa-git-alt"></i> Git</p>
-                <p class="fs-5"><i class="fa-brands fa-github"></i> GitHub</p>
-                <p class="fs-5"><i class="fa-brands fa-figma"></i> Figma</p>
-              </div>
+<body>
+  <!-- Header -->
+  <header class="sticky-top">
+    <section>
+      <nav class="navbar navbar-expand-lg bg-black">
+        <div class="container-fluid wrapper py-4 py-lg-2">
+          <a class="navbar-brand fs-2 fw-semibold" href="index.html">
+            <div class="heading">
+              <h3>Portfolio</h3>
+              <h3>Portfolio</h3>
             </div>
-          </div>
-          <div class="col-12 col-lg-6 mb-5 my-lg-0 text-center p-4">
-            <h4 class="fs-2 fw-semibold orange pb-3">
-              <i class="fa-solid fa-lightbulb"></i> Soft Skills
-            </h4>
-            <p class="fs-5">
-              <i class="fa-solid fa-check"></i>
-              Problem-solving
-            </p>
-            <p class="fs-5">
-              <i class="fa-solid fa-people-group"></i> Teamwork
-            </p>
-            <p class="fs-5">
-              <i class="fa-solid fa-magnifying-glass"></i> Attention to details
-            </p>
-            <p class="fs-5">
-              <i class="fa-solid fa-face-smile"></i> Great Communication
-            </p>
-            <button type="button" class="btn btn-warning cv py-1 px-3 mt-5">
-              <a
-                class="nav-link text-black fs-4 hvr-icon-pulse-grow"
-                href="assets/cv/cv.pdf"
-                target="_blank"
-              >
-                Download CV</a
-              >
-            </button>
-          </div>
-          <div class="col-12 col-lg-6 about-card mb-o">
-            <h4 class="fs-2 fw-semibold orange text-black">
-              <i class="fa-solid fa-graduation-cap"></i> Education
-            </h4>
-            <ul class="fs-5">
-              <li>
-                Diploma in Full Stack Software Development (August 2022–Present)
-                <br />
-                Code Institute - Dublin, Ireland
+          </a>
+          <button class="navbar-toggler me-3" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-end pt-4" id="navbarTogglerDemo02">
+            <ul class="navbar-nav mb-2 mb-lg-0">
+              <li class="nav-item text-center me-lg-3">
+                <a id="homepage" class="nav-link hvr-underline-from-center text-white fs-4 py-1 px-3"
+                  href="index.html">Home</a>
               </li>
-              <li>
-                Master of Engineering - MEng, Civil Engineering (September
-                2015–July 2016) <br />
-                Polytechnic University of Tirana - Tirana, Albania
+              <li class="nav-item text-center me-lg-3" id="sect">
+                <a class="nav-link hvr-underline-from-center text-white fs-4 py-1 px-3" href="#about">About me</a>
               </li>
-              <li>
-                Bachelor of Engineering - BE, Civil Engineering (September
-                2011–July 2014)
-                <br />
-                Polytechnic University of Tirana - Tirana, Albania
+              <li class="nav-item text-center me-lg-3">
+                <a class="nav-link hvr-underline-from-center text-white fs-4 py-1 px-3" href="#projects">Projects</a>
+              </li>
+              <li class="nav-item text-center me-lg-3">
+                <a class="nav-link hvr-underline-from-center text-white fs-4 py-1 px-3 mb-3" href="#contact">Contact</a>
+              </li>
+              <li class="nav-item text-center">
+                <button type="button" class="btn btn-warning py-1 px-3 cv">
+                  <a class="text-black fs-4 hvr-icon-pulse-grow p-0" href="assets/cv/cv.pdf" target="_blank">
+                    Download CV
+                  </a>
+                </button>
               </li>
             </ul>
           </div>
         </div>
+      </nav>
+    </section>
+  </header>
+  <!-- /header -->
+
+  <!-- Home page -->
+  <main>
+    <section id="home">
+      <div class="container banner text-white bg-image">
+        <div class="row">
+          <div class="col p-3">
+            <h3 id="greeting" class="text-left fs-2">Hello there !</h3>
+            <h1 class="text-left title-style fs-1">
+              My name is <strong class="orange">Edmir Demaj</strong>
+            </h1>
+            <h2 class="text-left title-style fs-1">
+              I am a
+              <strong class="orange">Junior Full Stack Developer</strong>
+            </h2>
+            <p class="lead text-up">
+              I have a passion for crafting elegant, functional web
+              applications that provide a seamless user experience. With a
+              deep understanding of both front-end and back-end development, I
+              am able to bring complex software projects to life.
+            </p>
+            <button type="button" class="btn btn-outline-warning fs-4 cta text-up">
+              <a href="#contact">Get in Touch</a>
+            </button>
+          </div>
+          <div
+            class="col-12 col-lg-1 social-links d-none d-m-inline-block d-lg-flex flex-column justify-content-center text-down text-start">
+            <a href="https://github.com/Edmir-Demaj" class="hvr-icon-grow" target="_blank"><i
+                class="fa-brands fa-square-github hvr-icon fs-1"></i></a>
+            <a href="https://www.linkedin.com/in/edmir-demaj-full-stack-developer/" class="hvr-icon-grow"
+              target="_blank"><i class="fa-brands fa-linkedin hvr-icon px-5 px-lg-0 py-lg-5 fs-1"></i></a>
+            <a href="mailto:edmir_demaj@yahoo.com" class="hvr-icon-grow"><i
+                class="fa-solid fa-envelope hvr-icon fs-1"></i></a>
+          </div>
+        </div>
       </div>
     </section>
-    <!-- /about -->
+  </main>
+  <!-- /home page -->
 
-    <!-- Projects -->
-    <section id="projects">
-      <div class="container-fluid">
-        <h2 class="title-style orange text-center fs-1 mb-5">
-          Projects
-        </h2>
+  <!-- About -->
+  <section id="about">
+    <div class="container text-start text-white">
+      <div class="row mx-1">
+        <div class="col-12 col-lg-6 mb-4 about-card">
+          <h2 class="about-text fw-semibold">
+            <i class="fa-regular fa-address-card"></i> About me
+          </h2>
+          <p class="lead py-0 pt-3">
+            I am a Junior Full Stack Developer with a passion for building
+            practical web applications and websites with an excellent user
+            experience. With knowledge in Front-end and Back-end Development,
+            I am skilled in leading technologies such as HTML5, CSS3,
+            Javascript, and Python. My background as a civil engineer has also
+            helped me develop strong problem-solving abilities, which I
+            effectively apply to software programming.
+          </p>
+        </div>
+        <div class="col-12 col-lg-6 text-center p-4">
+          <h3 class="fs-2 fw-semibold orange pb-3">
+            <i class="fa-solid fa-gears"></i> Technical Skills
+          </h3>
+          <div class="row">
+            <div class="col-6">
+              <h4 class="fw-semibold">Technologies</h4>
+              <p class="fs-5"><i class="fa-brands fa-html5"></i> HTML5</p>
+              <p class="fs-5"><i class="fa-brands fa-css3-alt"></i> CSS3</p>
+              <p class="fs-5">
+                <i class="fa-brands fa-square-js"></i> Javascript
+              </p>
+              <p class="fs-5"><i class="fa-brands fa-python"></i> Python</p>
+              <h4 class="fw-semibold">Frameworks</h4>
+              <p class="fs-5">
+                <i class="fa-brands fa-bootstrap"></i> Bootstrap
+              </p>
+            </div>
+            <div class="col-6">
+              <h4 class="fw-semibold">Tools</h4>
+              <p class="fs-5"><i class="fa-brands fa-git-alt"></i> Git</p>
+              <p class="fs-5"><i class="fa-brands fa-github"></i> GitHub</p>
+              <p class="fs-5"><i class="fa-brands fa-figma"></i> Figma</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-lg-6 mb-5 my-lg-0 text-center p-4">
+          <h4 class="fs-2 fw-semibold orange pb-3">
+            <i class="fa-solid fa-lightbulb"></i> Soft Skills
+          </h4>
+          <p class="fs-5">
+            <i class="fa-solid fa-check"></i>
+            Problem-solving
+          </p>
+          <p class="fs-5">
+            <i class="fa-solid fa-people-group"></i> Teamwork
+          </p>
+          <p class="fs-5">
+            <i class="fa-solid fa-magnifying-glass"></i> Attention to details
+          </p>
+          <p class="fs-5">
+            <i class="fa-solid fa-face-smile"></i> Great Communication
+          </p>
+          <button type="button" class="btn btn-warning cv py-1 px-3 mt-5">
+            <a class="nav-link text-black fs-4 hvr-icon-pulse-grow" href="assets/cv/cv.pdf" target="_blank">
+              Download CV</a>
+          </button>
+        </div>
+        <div class="col-12 col-lg-6 about-card mb-o">
+          <h4 class="fs-2 fw-semibold orange text-black">
+            <i class="fa-solid fa-graduation-cap"></i> Education
+          </h4>
+          <ul class="fs-5">
+            <li>
+              Diploma in Full Stack Software Development (August 2022–Present)
+              <br />
+              Code Institute - Dublin, Ireland
+            </li>
+            <li>
+              Master of Engineering - MEng, Civil Engineering (September
+              2015–July 2016) <br />
+              Polytechnic University of Tirana - Tirana, Albania
+            </li>
+            <li>
+              Bachelor of Engineering - BE, Civil Engineering (September
+              2011–July 2014)
+              <br />
+              Polytechnic University of Tirana - Tirana, Albania
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- /about -->
 
- <div
- class="row row-cols-1 row-cols-md-2 row-cols-lg-3 p-4 mx-auto gy-5 gx-0 gx-md-4"
->
- <!-- Card-1 -->
- <div class="col">
-   <div class="card h-100">
-     <img
-       src="assets/images/quiz-game.png"
-       height="100%"
-       class="card-img-top"
-       alt="responsive-designs of quiz-game website"
-     />
-     <div class="card-body">
-       <h5 class="card-title">Quiz Game</h5>
-       <p class="card-text py-2">
-         Performance 98! <br />
-         One of my best SEO projects.<br />
-         A web application designed for users to test their knowledge with
-         a variety of quiz questions. Built with HTML5, CSS3, and
-         Javascript.
-       </p>
-     </div>
-     <div class="card-footer">
-       <div class="d-flex justify-content-around">
-         <a
-           href="https://github.com/Edmir-Demaj/quiz-game."
-           class="hvr-icon-grow"
-           target="_blank"
-           ><i class="fa-brands fa-square-github hvr-icon fs-1"></i
-         ></a>
-         <a
-           href="https://edmir-demaj.github.io/quiz-game./"
-           class="hvr-icon-grow"
-           target="_blank"
-           ><i class="fa-solid fa-eye hvr-icon fs-1"></i
-         ></a>
-       </div>
-     </div>
-   </div>
- </div>
- <!-- /card-1 -->
-
- <!-- Card-2 -->
- <div class="col">
-   <div class="card h-100">
-     <img
-       src="assets/images/welcome-to-albania.png"
-       height="100%"
-       class="card-img-top"
-       alt="hero section with mountains and river on img"
-     />
-     <div class="card-body">
-       <h5 class="card-title">Welcome to Albania</h5>
-       <p class="card-text py-2">
-         My very first project! <br />
-         A simple static website presenting nature and promoting Albania as
-         a country. Built with HTML5 and CSS3 as well as used Figma to
-         create wireframes.
-       </p>
-     </div>
-     <div class="card-footer">
-       <div class="d-flex justify-content-around">
-         <a
-           href="https://github.com/Edmir-Demaj/welcome-to-albania"
-           class="hvr-icon-grow"
-           target="_blank"
-           ><i class="fa-brands fa-square-github hvr-icon fs-1"></i
-         ></a>
-         <a
-           href="https://edmir-demaj.github.io/welcome-to-albania/"
-           class="hvr-icon-grow"
-           target="_blank"
-           ><i class="fa-solid fa-eye hvr-icon fs-1"></i
-         ></a>
-       </div>
-     </div>
-   </div>
- </div>
- <!-- /card-2 -->
-
- <!-- Card-3 -->
- <div class="col">
-   <div class="card h-100">
-     <img
-       src="assets/images/python.png"
-       height="100%"
-       class="card-img-top"
-       alt="responsive-designs of qli web app"
-     />
-     <div class="card-body">
-       <h5 class="card-title">Quality of Life Index</h5>
-       <p class="card-text py-2">
-         My first web app interacting with Data! <br />
-         A command line web app providing users with the QLI for different
-         countries in the world. Built with Python and some Python
-         libraries.
-       </p>
-     </div>
-     <div class="card-footer">
-       <div class="d-flex justify-content-around">
-         <a
-           href="https://github.com/Edmir-Demaj/quality-of-life-index"
-           class="hvr-icon-grow"
-           target="_blank"
-           ><i class="fa-brands fa-square-github hvr-icon fs-1"></i
-         ></a>
-         <a
-           href="https://quality-life-index.herokuapp.com/"
-           class="hvr-icon-grow"
-           target="_blank"
-           ><i class="fa-solid fa-eye hvr-icon fs-1"></i
-         ></a>
-       </div>
-     </div>
-   </div>
- </div>
- <!-- card-3 -->
-</div>
-<!-- /projects -->
-
-      <!-- Collaborative projects -->
-      <div class="container-fluid">
-        <h2 class="about-text title-style orange text-center mt-4 mb-5">
-          Collaborative Projects
-        </h2>
-        <div
-        class="row row-cols-1 row-cols-md-2 row-cols-lg-3 p-4 mx-auto gy-5 gx-0 gx-md-4 d-flex justify-content-center"
-       >
+  <!-- Projects -->
+  <section id="projects">
+    <div class="container-fluid">
+      <h2 class="title-style orange text-center fs-1 mb-5"> <i class="fa-regular fa-folder-open"></i>
+        Projects
+      </h2>
+      <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 p-4 mx-auto gy-5 gx-0 gx-md-4">
         <!-- Card-1 -->
         <div class="col">
           <div class="card h-100">
-            <img
-              src="assets/images/ngo-directory.png"
-              height="100%"
-              class="card-img-top"
-              alt="home page img with mountains on background"
-            />
+            <img src="assets/images/quiz-game.png" height="100%" class="card-img-top"
+              alt="responsive-designs of quiz-game website" />
             <div class="card-body">
-              <h5 class="card-title">Hackathon February 2023</h5>
+              <h5 class="card-title">Quiz Game</h5>
               <p class="card-text py-2">
-                Won 3rd place! <br />
-                Participated in Code Institute Hackathon. Held a
-Scrum role, created wireframes and developed a contact page in this collaborative project called NGO Directory.
+                Performance 98! <br />
+                One of my best SEO projects.<br />
+                A web application designed for users to test their knowledge with
+                a variety of quiz questions. Built with HTML5, CSS3, and
+                Javascript.
               </p>
             </div>
             <div class="card-footer">
               <div class="d-flex justify-content-around">
-                <a
-                  href="https://github.com/Edmir-Demaj/Feb-2023-Hackathon"
-                  class="hvr-icon-grow"
-                  target="_blank"
-                  ><i class="fa-brands fa-square-github hvr-icon fs-1"></i
-                ></a>
-                <a
-                  href="https://feb-2023-hackathon.herokuapp.com/"
-                  class="hvr-icon-grow"
-                  target="_blank"
-                  ><i class="fa-solid fa-eye hvr-icon fs-1"></i
-                ></a>
+                <a href="https://github.com/Edmir-Demaj/quiz-game." class="hvr-icon-grow" target="_blank"><i
+                    class="fa-brands fa-square-github hvr-icon fs-1"></i></a>
+                <a href="https://edmir-demaj.github.io/quiz-game./" class="hvr-icon-grow" target="_blank"><i
+                    class="fa-solid fa-eye hvr-icon fs-1"></i></a>
               </div>
             </div>
           </div>
         </div>
         <!-- /card-1 -->
-       
+
         <!-- Card-2 -->
         <div class="col">
           <div class="card h-100">
-            <img
-              src="assets/images/helpsavvy-financial.png"
-              height="100%"
-              class="card-img-top"
-              alt="home page with a boat in venecia img background"
-            />
+            <img src="assets/images/welcome-to-albania.png" height="100%" class="card-img-top"
+              alt="hero section with mountains and river on img" />
             <div class="card-body">
-              <h5 class="card-title">Hackathon January 2023</h5>
+              <h5 class="card-title">Welcome to Albania</h5>
               <p class="card-text py-2">
-                My first Hackathon! <br />
-                Participated in Code Institute Hackathon.
-Designed and created wireframes and developed a budget page using HTML, CSS, and
-JavaScript in this collaborative project called HelpSavvy Financial.
+                My very first project! <br />
+                A simple static website presenting nature and promoting Albania as
+                a country. Built with HTML5 and CSS3 as well as used Figma to
+                create wireframes.
               </p>
             </div>
             <div class="card-footer">
               <div class="d-flex justify-content-around">
-                <a
-                  href="https://github.com/Edmir-Demaj/January-2023-Hackathon"
-                  class="hvr-icon-grow"
-                  target="_blank"
-                  ><i class="fa-brands fa-square-github hvr-icon fs-1"></i
-                ></a>
-                <a
-                  href="https://hackathon-finrev-2023.herokuapp.com/"
-                  class="hvr-icon-grow"
-                  target="_blank"
-                  ><i class="fa-solid fa-eye hvr-icon fs-1"></i
-                ></a>
+                <a href="https://github.com/Edmir-Demaj/welcome-to-albania" class="hvr-icon-grow" target="_blank"><i
+                    class="fa-brands fa-square-github hvr-icon fs-1"></i></a>
+                <a href="https://edmir-demaj.github.io/welcome-to-albania/" class="hvr-icon-grow" target="_blank"><i
+                    class="fa-solid fa-eye hvr-icon fs-1"></i></a>
               </div>
             </div>
           </div>
         </div>
         <!-- /card-2 -->
+
+        <!-- Card-3 -->
+        <div class="col">
+          <div class="card h-100">
+            <img src="assets/images/python.png" height="100%" class="card-img-top"
+              alt="responsive-designs of qli web app" />
+            <div class="card-body">
+              <h5 class="card-title">Quality of Life Index</h5>
+              <p class="card-text py-2">
+                My first web app interacting with Data! <br />
+                A command line web app providing users with the QLI for different
+                countries in the world. Built with Python and some Python
+                libraries.
+              </p>
+            </div>
+            <div class="card-footer">
+              <div class="d-flex justify-content-around">
+                <a href="https://github.com/Edmir-Demaj/quality-of-life-index" class="hvr-icon-grow" target="_blank"><i
+                    class="fa-brands fa-square-github hvr-icon fs-1"></i></a>
+                <a href="https://quality-life-index.herokuapp.com/" class="hvr-icon-grow" target="_blank"><i
+                    class="fa-solid fa-eye hvr-icon fs-1"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- card-3 -->
+      </div>
+
+      <!-- Collaborative projects -->
+      <div class="container-fluid">
+        <h2 class="about-text title-style orange text-center mt-4 mb-5"><i class="fa-solid fa-handshake-angle"></i>
+          Collaborative Projects
+        </h2>
+        <div
+          class="row row-cols-1 row-cols-md-2 row-cols-lg-3 p-4 mx-auto gy-5 gx-0 gx-md-4 d-flex justify-content-center">
+          <!-- Card-1 -->
+          <div class="col">
+            <div class="card h-100">
+              <img src="assets/images/ngo-directory.png" height="100%" class="card-img-top"
+                alt="home page img with mountains on background" />
+              <div class="card-body">
+                <h5 class="card-title">Hackathon February 2023</h5>
+                <p class="card-text py-2">
+                  Won 3rd place! <br />
+                  Participated in Code Institute Hackathon. Held a
+                  Scrum role, created wireframes and developed a contact page in this collaborative project called NGO
+                  Directory.
+                </p>
+              </div>
+              <div class="card-footer">
+                <div class="d-flex justify-content-around">
+                  <a href="https://github.com/Edmir-Demaj/Feb-2023-Hackathon" class="hvr-icon-grow" target="_blank"><i
+                      class="fa-brands fa-square-github hvr-icon fs-1"></i></a>
+                  <a href="https://feb-2023-hackathon.herokuapp.com/" class="hvr-icon-grow" target="_blank"><i
+                      class="fa-solid fa-eye hvr-icon fs-1"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- /card-1 -->
+
+          <!-- Card-2 -->
+          <div class="col">
+            <div class="card h-100">
+              <img src="assets/images/helpsavvy-financial.png" height="100%" class="card-img-top"
+                alt="home page with a boat in venecia img background" />
+              <div class="card-body">
+                <h5 class="card-title">Hackathon January 2023</h5>
+                <p class="card-text py-2">
+                  My first Hackathon! <br />
+                  Participated in Code Institute Hackathon.
+                  Designed and created wireframes and developed a budget page using HTML, CSS, and
+                  JavaScript in this collaborative project called HelpSavvy Financial.
+                </p>
+              </div>
+              <div class="card-footer">
+                <div class="d-flex justify-content-around">
+                  <a href="https://github.com/Edmir-Demaj/January-2023-Hackathon" class="hvr-icon-grow"
+                    target="_blank"><i class="fa-brands fa-square-github hvr-icon fs-1"></i></a>
+                  <a href="https://hackathon-finrev-2023.herokuapp.com/" class="hvr-icon-grow" target="_blank"><i
+                      class="fa-solid fa-eye hvr-icon fs-1"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- /card-2 -->
         </div>
       </div>
       <!-- /collaborative projects -->
+  </section>
+  <!-- /projects -->
 
-    </section>
-    <!-- /projects -->
-
-    <!-- Contact -->
-    <section id="contact">
-      <i class="fa-solid fa-angles-down"></i>
-      <h2 class="about-text title-style text-white text-center mb-5 text-down">
-        Contact
+  <!-- Contact -->
+  <section id="contact">
+    <div class="cotainer">
+      <h2 class="title-style orange text-center mb-5">
+        <i class="fa-solid fa-id-card-clip mx-2"></i> Contact
       </h2>
-      <div class="container text-center">
-        <div class="row">
-          <div class="col-12 col-md-6 col-lg-3 mt-5">
-            <a
-              href="mailto:edmir_demaj@yahoo.com"
-              class="hvr-icon-grow contact-icons mx-auto"
-              ><i class="fa-solid fa-paper-plane hvr-icon"></i
-            ></a>
-
-            <span class="orange d-inline-block text-start mt-4 fs-5 mx-auto"
-              >edmir_demaj@yahoo.com</span
-            >
+      <div class="row text-white">
+        <div class="col">section 1
+          <div class="row">
+            contact details
           </div>
-          <div class="col-12 col-md-6 col-lg-3 mt-5">
-            <a
-              href="tel:+353873679307"
-              class="hvr-icon-grow contact-icons mx-auto"
-              ><i class="fa-solid fa-phone hvr-icon"></i
-            ></a>
-
-            <span class="orange d-inline-block text-start mt-4 fs-5 mx-auto"
-              >+353 87 367 9307</span
-            >
-          </div>
-          <div class="col-12 col-md-6 col-lg-3 mt-5">
-            <a
-              href="https://www.linkedin.com/in/edmir-demaj-full-stack-developer/"
-              target="_blank"
-              class="hvr-icon-grow contact-icons mx-auto"
-              ><i class="fa-brands fa-linkedin hvr-icon"></i
-            ></a>
-
-            <span class="orange d-inline-block text-start mt-4 fs-5 mx-auto"
-              >Linkedin.com</span
-            >
-          </div>
-          <div class="col-12 col-md-6 col-lg-3 mt-5">
-            <a
-              href="https://edmir-demaj.github.io/portfolio-Edmir-Demaj/"
-              target="_blank"
-              class="hvr-icon-grow contact-icons mx-auto"
-              ><i class="fa-solid fa-globe hvr-icon"></i
-            ></a>
-
-            <span class="orange d-inline-block text-start mt-4 fs-5 mx-auto"
-              >Edmir Demaj</span
-            >
+          <div class="row">
+            social links
           </div>
         </div>
+        <div class="col">contact form</div>
       </div>
-    </section>
-    <!-- /contact -->
+    </div>
+  </section>
+  <!-- /contact -->
 
-    <!-- Footer -->
-    <footer>footer of page</footer>
-    <!-- /footer -->
+  <!-- Footer -->
+  <footer>footer of page</footer>
+  <!-- /footer -->
 
-    <!-- font awesome link -->
-    <script
-      src="https://kit.fontawesome.com/b2a34f6332.js"
-      crossorigin="anonymous"
-    ></script>
+  <!-- font awesome link -->
+  <script src="https://kit.fontawesome.com/b2a34f6332.js" crossorigin="anonymous"></script>
 
-    <!-- bootstrap javascript link -->
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
-      crossorigin="anonymous"
-    ></script>
+  <!-- bootstrap javascript link -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+    crossorigin="anonymous"></script>
 
-    <!-- javascript link -->
-    <script src="assets/javascript/script.js"></script>
-  </body>
+  <!-- javascript link -->
+  <script src="assets/javascript/script.js"></script>
+</body>
+
 </html>

@@ -215,8 +215,9 @@ a {
 
 /* ------------------------------------About page */
 #about,
-#projects {
-    padding-top: 140px;
+#projects,
+#contact {
+    padding-top: 130px;
 }
 
 .about-card {
@@ -237,7 +238,7 @@ a {
 }
 
 /* ------------------------------------Contact page */
-#contact {
+/* #contact {
     background-color: #ffc107;
     background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.8)), url(../images/background-contact.jpg) center center / cover no-repeat;
     background-attachment: fixed;
@@ -255,4 +256,4 @@ a {
     align-items: center;
     border-radius: 50%;
     font-size: 2.2rem;
-}
+} */
