@@ -231,6 +231,11 @@ a {
     height: 320px;
 }
 
+.card {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
 /* ------------------------------------Contact page */
 #contact {
     background-color: #ffc107;
