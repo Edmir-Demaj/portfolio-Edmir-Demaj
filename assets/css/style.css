@@ -20,10 +20,6 @@ a {
     max-width: 1440px;
 }
 
-li {
-    list-style-type: none;
-}
-
 /* ------------------------------------|Colors */
 
 .orange {
@@ -224,15 +220,11 @@ li {
 }
 
 .about-card {
-    background-color: rgb(162, 141, 71);
+    background-color: #d9a404;
     color: #000000;
     border-radius: 20px;
-    margin-bottom: 40px;
     padding: 24px;
 }
-
-.social-links {}
-
 
 /* -----------------------------------Project page */
 .card-img-top {
