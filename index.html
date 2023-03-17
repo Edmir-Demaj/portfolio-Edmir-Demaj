@@ -351,55 +351,47 @@
       </h2>
       <div class="row text-white">
         <div class="col-12 col-lg-6 px-4 pt-0 pt-lg-5 mb-5">
-          <h3 class="fs-1 pb-5 fw-semibold">Let's get in <span class="orange">touch!</span>
+          <h3 class="fs-1 pb-5 fw-semibold text-center text-md-start">Let's get in <span class="orange">touch!</span>
           </h3>
-          <p class="mb-5 fs-5 max-width">Please feel free to send me a message if you're interested in extending a job
+          <p class="mb-5 fs-5 max-width text-center text-md-start">Please feel free to send me a message if you're
+            interested in extending a job
             offer or inviting me to collaborate on a project.</p>
-          <div class="d-flex align-items-center mb-5">
+          <div class="d-flex flex-column flex-md-row align-items-center mb-4">
             <div class="icon"><i class="fa-solid fa-map-location fs-4"></i></div>
             <div class="fs-4 p-4">Address: Dublin,
               Ireland</div>
           </div>
-          <div class="d-flex align-items-center mb-5">
+          <div class="d-flex flex-column flex-md-row align-items-center mb-4">
             <div class="icon"><i class="fa-solid fa-phone fs-4"></i></div>
             <div class="fs-4 p-4">Phone: +353 87 367
               9307</div>
           </div>
-          <div class="d-flex align-items-center mb-0">
+          <div class="d-flex flex-column flex-md-row align-items-center mb-0">
             <div class="icon"><i class="fa-solid fa-paper-plane fs-4"></i></div>
-            <div class="fs-4 p-4">Email:
-              edmir_demaj@yahoo.com</div>
+            <div class="fs-4 pt-4 ps-0 ps-md-4">Email: edmir_demaj@yahoo.com</div>
           </div>
-
-          <!-- <div class=" mb-5 d-flex align-items-center">
-             <span class="ps-4 fs-4 fw-normal">Phone: +353 87 367
-              9307</span>
-          </div>
-          <div class=" d-flex align-items-center">
-             <span class="ps-4 fs-4 fw-normal"></span>
-          </div> -->
         </div>
 
         <!-- Form Code -->
         <div class="col-12 col-lg-6 bg-style p-4">
           <h3 class="fs-1 text-black py-4 pb-5 fw-semibold">Drop me a <span class="text-white">message!</span>
           </h3>
-          <form class="row g-3 gy-5">
+          <form class="row g-3 gy-5" action="https://formspree.io/f/xayzbrbb" method="POST">
             <div class="col-md-6">
-              <input type="text" class="form-control" id="validationDefault01" placeholder="Name" required=""
+              <input type="text" name="name" class="form-control" id="name" placeholder="Name" required
                 fdprocessedid="i3lkm" />
             </div>
             <div class="col-md-6">
-              <input type="text" class="form-control" id="validationDefault02" placeholder="Surname" required=""
+              <input type="text" class="form-control" name="surname" id="surname" placeholder="Surname" required
                 fdprocessedid="2mpc9j" />
             </div>
 
             <div class="col-md-6">
-              <input type="email" class="form-control" id="validationDefault03" placeholder="Email" required=""
+              <input type="email" class="form-control" name="email" id="email" placeholder="Email" required
                 fdprocessedid="7tysja" />
             </div>
             <div class="col-md-4">
-              <select class="form-select " id="validationDefault04" required="" fdprocessedid="m3gfjn">
+              <select class="form-select" name="subject" id="subject" required fdprocessedid="m3gfjn">
                 <option selected="" disabled="" value="">Subject</option>
                 <option>Job offer</option>
                 <option>Collaboration</option>
@@ -412,18 +404,13 @@
 
             <div class="col-12">
               <div class="form-floating">
-                <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2"
+                <textarea class="form-control" placeholder="Leave a comment here" name="message" id="message"
                   style="height: 100px" required=""></textarea>
                 <label for="floatingTextarea2" class="text-dark">Your message:</label>
               </div>
             </div>
-            <div>
-              <p class="m-0 text-dark">* Contact form is not linked yet with database for this website, please use the
-                other
-                contact forms to
-                reach me for the moment *</p>
-            </div>
-            <div class="col-12 gy-4">
+
+            <div class="col-12 gy-4 pt-5">
               <button class="btn btn-dark m-0 px-4 fs-5" type="submit" fdprocessedid="dh8eyl">
                 Submit
               </button>

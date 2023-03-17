@@ -259,8 +259,8 @@ ul {
 
 /* ------------------------------------Contact page */
 .icon {
-    width: 4em;
-    height: 4em;
+    width: 3.5em;
+    height: 3.5em;
     border-radius: 50%;
     border: 2px solid #ffc107;
     display: grid;
@@ -281,7 +281,7 @@ footer {
     margin-top: 150px;
     background-color: black;
     width: 100%;
-    height: 350px;
+    min-height: 300px;
 }
 
 .footer-links {
