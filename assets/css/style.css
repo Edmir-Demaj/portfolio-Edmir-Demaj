@@ -248,7 +248,8 @@ ul {
 
 /* -----------------------------------Project page */
 .card-img-top {
-    height: 270px;
+    height: 250px;
+    object-fit: fill;
 }
 
 .card {
@@ -258,10 +259,12 @@ ul {
 
 /* ------------------------------------Contact page */
 .icon {
-    display: inline-block;
+    width: 4em;
+    height: 4em;
     border-radius: 50%;
-    box-shadow: 0 0 15px #ffc107;
-    padding: 0.6em 0.7em;
+    border: 2px solid #ffc107;
+    display: grid;
+    place-content: center;
 }
 
 .max-width {
@@ -299,11 +302,5 @@ footer {
 @media only screen and (max-width: 600px) {
     .banner {
         padding-top: 30%;
-    }
-}
-
-@media only screen and (max-width: 992px) {
-    .skills {
-        padding-left: 24px;
     }
 }
