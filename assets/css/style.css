@@ -30,13 +30,8 @@ footer {
     overflow-x: hidden;
 }
 
-/* ------------------------------------|Colors */
 .orange {
     color: #ffc107;
-}
-
-.card {
-    background-color: rgb(234, 208, 168);
 }
 
 /* ------------------------------------Navabar */
@@ -255,6 +250,7 @@ ul {
 .card {
     max-width: 600px;
     margin: 0 auto;
+    background-color: rgb(234, 208, 168);
 }
 
 /* ------------------------------------Contact page */
