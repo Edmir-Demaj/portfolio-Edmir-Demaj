@@ -14,3 +14,10 @@ for (let i = 0; i < navLinks.length; i++) {
     this.className += " active";
   });
 }
+
+// function to clear the form after submitting it
+window.onbeforeunload = () => {
+  for (const form of document.getElementsByTagName("form")) {
+    form.reset();
+  }
+};
